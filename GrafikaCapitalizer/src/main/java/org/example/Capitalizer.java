@@ -13,6 +13,7 @@ import javax.swing.border.Border;
 public class Capitalizer {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(()->{
+            //Sets up the text plane
             var initialText = "Hello, can you speak english?";
             var area = new JTextArea(initialText, 8, 50);
 
